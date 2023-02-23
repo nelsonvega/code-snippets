@@ -1,4 +1,6 @@
-## CQRS, which stands for Command Query Responsibility Segregation, is an architectural pattern that separates the read and write operations of an application into two separate models. Here are 10 steps to understanding CQRS:
+## CQRS 
+
+### which stands for Command Query Responsibility Segregation, is an architectural pattern that separates the read and write operations of an application into two separate models. Here are 10 steps to understanding CQRS:
 
 * The traditional architecture of a software application involves a single model that handles both read and write operations.
 
