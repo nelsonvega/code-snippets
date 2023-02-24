@@ -1,7 +1,12 @@
-public class OrderCommandHandler
+namespace CQRS
 {
-    public void Handle(CreateOrderCommand command)
+    public class OrderCommandHandler:ICommandHandler<CreateOrderCommand>
     {
-        // create the order
+        public void Handle(CreateOrderCommand command)
+        {
+            // create the order
+        }
+
+       
     }
 }

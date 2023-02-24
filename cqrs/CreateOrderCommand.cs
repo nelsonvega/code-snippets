@@ -1,6 +1,10 @@
-public class CreateOrderCommand
+namespace CQRS
 {
-    public string CustomerName { get; set; }
-    public string ProductName { get; set; }
-    public int Quantity { get; set; }
+
+    public class CreateOrderCommand
+    {
+        public string CustomerName { get; set; }
+        public string ProductName { get; set; }
+        public int Quantity { get; set; }
+    }
 }

@@ -1,4 +1,7 @@
-public class GetOrderQuery
+namespace CQRS
 {
-    public int OrderId { get; set; }
+    public class GetOrderQuery
+    {
+        public int OrderId { get; set; }
+    }
 }

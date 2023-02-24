@@ -1,8 +1,11 @@
-public class OrderQueryHandler
+namespace CQRS
 {
-    public Order Handle(GetOrderQuery query)
+    public class OrderQueryHandler:IQueryHandler<GetOrderQuery,Order>
     {
-        // retrieve the order
-        return new Order();
+        public Order Handle(GetOrderQuery query)
+        {
+            // retrieve the order
+            return new Order();
+        }
     }
 }
